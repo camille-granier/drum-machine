@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import {BrowserRouter} from 'react-router-dom'
 
 const firstSoundsGroup = [
     {
@@ -236,4 +237,6 @@ const DrumMachine = () => {
 };
 
 
-ReactDOM.render(<DrumMachine />, document.getElementById('root'))
+ReactDOM.render(<BrowserRouter>
+     <DrumMachine />
+   </BrowserRouter>, document.getElementById('root'))
