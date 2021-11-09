@@ -41,6 +41,8 @@ html {
   border-radius: 1.5%;
   width: 360px;
   height: auto;
+  border: 1px solid black;
+  box-shadow: 0 0 8px black;
 }
 
 .drum-pad {
@@ -52,7 +54,8 @@ html {
     margin: 6px;
     padding-top: 0px;
     justify-text: top;
-    box-shadow: 7px 5px 5px 3px #2c2d34;
+    border: 2px solid black;
+    box-shadow: 0 0 10px black;
  }
   button {
     background-color: #142d4c;
